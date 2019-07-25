@@ -11,7 +11,10 @@ IOS项目-markdown浏览器
 - markdown预览
 - markdown文本分享
 
-<div style="float: left; position: relative;left: 40%;"><img src="/DigitalSuperElimination/screenshot/1.png" width="200" height="400" style="display:inline;"/><img src="/DigitalSuperElimination/screenshot/2.png" width="200" height="400" style="display:inline;"/></div>
+<div style="float: left; position: relative;left: 40%;"><img src="/MarkdownExplorer
+/screenshot/1.png" width="200" height="400" style="display:inline;"/><img src="/MarkdownExplorer
+/screenshot/2.png" width="200" height="400" style="display:inline;"/><img src="/MarkdownExplorer
+/screenshot/3.png" width="200" height="400" style="display:inline;"/></div>
 
 ## 所学技术
 - 对之前所学技术的整合使用。
