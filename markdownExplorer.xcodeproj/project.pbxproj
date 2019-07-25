@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7BECF29624E8AA02F98B82C /* Pods_markdownExplorer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35876FE9C49E96B421E2F6D6 /* Pods_markdownExplorer.framework */; };
+		FED1F84822E953F600106AC5 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED1F84722E953F600106AC5 /* SettingTableViewController.swift */; };
+		FED1F84D22E955E400106AC5 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED1F84B22E955E400106AC5 /* AboutViewController.swift */; };
+		FED1F84E22E955E400106AC5 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED1F84C22E955E400106AC5 /* AboutViewController.xib */; };
+		FED1F85122E9589200106AC5 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED1F84F22E9589200106AC5 /* FeedbackViewController.swift */; };
+		FED1F85222E9589200106AC5 /* FeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED1F85022E9589200106AC5 /* FeedbackViewController.xib */; };
+		FED5483222E6FB0C009E4126 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED5483122E6FB0C009E4126 /* AppDelegate.swift */; };
+		FED5483422E6FB0C009E4126 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED5483322E6FB0C009E4126 /* ViewController.swift */; };
+		FED5483722E6FB0C009E4126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED5483522E6FB0C009E4126 /* Main.storyboard */; };
+		FED5483922E6FB11009E4126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED5483822E6FB11009E4126 /* Assets.xcassets */; };
+		FED5483C22E6FB11009E4126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED5483A22E6FB11009E4126 /* LaunchScreen.storyboard */; };
+		FED5484422E6FBE7009E4126 /* markymark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED5484322E6FBE7009E4126 /* markymark.framework */; };
+		FED5486A22E70432009E4126 /* DocumentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED5486822E70432009E4126 /* DocumentTableViewCell.swift */; };
+		FED5486B22E70432009E4126 /* DocumentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED5486922E70432009E4126 /* DocumentTableViewCell.xib */; };
+		FED5486D22E70A81009E4126 /* MarkDownDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED5486C22E70A81009E4126 /* MarkDownDetail.swift */; };
+		FED5487022E70C8A009E4126 /* TimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED5486F22E70C8A009E4126 /* TimeController.swift */; };
+		FED548BA22E8162F009E4126 /* FileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED548B922E8162F009E4126 /* FileController.swift */; };
+		FED548BC22E8459E009E4126 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED548BB22E8459E009E4126 /* SVProgressHUD.framework */; };
+		FED548BE22E8468D009E4126 /* CreateFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED548BD22E8468D009E4126 /* CreateFileViewController.swift */; };
+		FED548C222E84A38009E4126 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED548C022E84A38009E4126 /* EditViewController.swift */; };
+		FED548C322E84A38009E4126 /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED548C122E84A38009E4126 /* EditViewController.xib */; };
+		FED548C622E943E3009E4126 /* MarkDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED548C422E943E3009E4126 /* MarkDownViewController.swift */; };
+		FED548C722E943E3009E4126 /* MarkDownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED548C522E943E3009E4126 /* MarkDownViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35876FE9C49E96B421E2F6D6 /* Pods_markdownExplorer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_markdownExplorer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9115D56D576D0C8C1339673 /* Pods-markdownExplorer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-markdownExplorer.debug.xcconfig"; path = "Target Support Files/Pods-markdownExplorer/Pods-markdownExplorer.debug.xcconfig"; sourceTree = "<group>"; };
+		DC38E5A8F7E58E4FD85CAD50 /* Pods-markdownExplorer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-markdownExplorer.release.xcconfig"; path = "Target Support Files/Pods-markdownExplorer/Pods-markdownExplorer.release.xcconfig"; sourceTree = "<group>"; };
+		FED1F84722E953F600106AC5 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		FED1F84B22E955E400106AC5 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		FED1F84C22E955E400106AC5 /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		FED1F84F22E9589200106AC5 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		FED1F85022E9589200106AC5 /* FeedbackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedbackViewController.xib; sourceTree = "<group>"; };
+		FED5482E22E6FB0C009E4126 /* markdownExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = markdownExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED5483122E6FB0C009E4126 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FED5483322E6FB0C009E4126 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FED5483622E6FB0C009E4126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FED5483822E6FB11009E4126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FED5483B22E6FB11009E4126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FED5483D22E6FB11009E4126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FED5484322E6FBE7009E4126 /* markymark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = markymark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED5486822E70432009E4126 /* DocumentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTableViewCell.swift; sourceTree = "<group>"; };
+		FED5486922E70432009E4126 /* DocumentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocumentTableViewCell.xib; sourceTree = "<group>"; };
+		FED5486C22E70A81009E4126 /* MarkDownDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkDownDetail.swift; sourceTree = "<group>"; };
+		FED5486F22E70C8A009E4126 /* TimeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeController.swift; sourceTree = "<group>"; };
+		FED548B922E8162F009E4126 /* FileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileController.swift; sourceTree = "<group>"; };
+		FED548BB22E8459E009E4126 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED548BD22E8468D009E4126 /* CreateFileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFileViewController.swift; sourceTree = "<group>"; };
+		FED548C022E84A38009E4126 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		FED548C122E84A38009E4126 /* EditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditViewController.xib; sourceTree = "<group>"; };
+		FED548C422E943E3009E4126 /* MarkDownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkDownViewController.swift; sourceTree = "<group>"; };
+		FED548C522E943E3009E4126 /* MarkDownViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarkDownViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FED5482B22E6FB0C009E4126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED548BC22E8459E009E4126 /* SVProgressHUD.framework in Frameworks */,
+				FED5484422E6FBE7009E4126 /* markymark.framework in Frameworks */,
+				F7BECF29624E8AA02F98B82C /* Pods_markdownExplorer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A7785E381F3956BC7B7ADC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FED548BB22E8459E009E4126 /* SVProgressHUD.framework */,
+				FED5484322E6FBE7009E4126 /* markymark.framework */,
+				35876FE9C49E96B421E2F6D6 /* Pods_markdownExplorer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3A963063D838841FE65F5DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9115D56D576D0C8C1339673 /* Pods-markdownExplorer.debug.xcconfig */,
+				DC38E5A8F7E58E4FD85CAD50 /* Pods-markdownExplorer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FED1F84A22E955D300106AC5 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				FED1F84B22E955E400106AC5 /* AboutViewController.swift */,
+				FED1F84C22E955E400106AC5 /* AboutViewController.xib */,
+				FED1F84F22E9589200106AC5 /* FeedbackViewController.swift */,
+				FED1F85022E9589200106AC5 /* FeedbackViewController.xib */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		FED5482522E6FB0C009E4126 = {
+			isa = PBXGroup;
+			children = (
+				FED5483022E6FB0C009E4126 /* markdownExplorer */,
+				FED5482F22E6FB0C009E4126 /* Products */,
+				D3A963063D838841FE65F5DD /* Pods */,
+				9A7785E381F3956BC7B7ADC6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FED5482F22E6FB0C009E4126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FED5482E22E6FB0C009E4126 /* markdownExplorer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FED5483022E6FB0C009E4126 /* markdownExplorer */ = {
+			isa = PBXGroup;
+			children = (
+				FED1F84A22E955D300106AC5 /* other */,
+				FED548BF22E84A2B009E4126 /* edit */,
+				FED5486E22E70C73009E4126 /* tools */,
+				FED5486722E70415009E4126 /* Cell */,
+				FED5483122E6FB0C009E4126 /* AppDelegate.swift */,
+				FED5483322E6FB0C009E4126 /* ViewController.swift */,
+				FED5483522E6FB0C009E4126 /* Main.storyboard */,
+				FED5483822E6FB11009E4126 /* Assets.xcassets */,
+				FED5483A22E6FB11009E4126 /* LaunchScreen.storyboard */,
+				FED5483D22E6FB11009E4126 /* Info.plist */,
+				FED548BD22E8468D009E4126 /* CreateFileViewController.swift */,
+				FED1F84722E953F600106AC5 /* SettingTableViewController.swift */,
+			);
+			path = markdownExplorer;
+			sourceTree = "<group>";
+		};
+		FED5486722E70415009E4126 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FED5486822E70432009E4126 /* DocumentTableViewCell.swift */,
+				FED5486922E70432009E4126 /* DocumentTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FED5486E22E70C73009E4126 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				FED5486C22E70A81009E4126 /* MarkDownDetail.swift */,
+				FED5486F22E70C8A009E4126 /* TimeController.swift */,
+				FED548B922E8162F009E4126 /* FileController.swift */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		FED548BF22E84A2B009E4126 /* edit */ = {
+			isa = PBXGroup;
+			children = (
+				FED548C022E84A38009E4126 /* EditViewController.swift */,
+				FED548C122E84A38009E4126 /* EditViewController.xib */,
+				FED548C422E943E3009E4126 /* MarkDownViewController.swift */,
+				FED548C522E943E3009E4126 /* MarkDownViewController.xib */,
+			);
+			path = edit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FED5482D22E6FB0C009E4126 /* markdownExplorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED5484022E6FB11009E4126 /* Build configuration list for PBXNativeTarget "markdownExplorer" */;
+			buildPhases = (
+				3A25050BC9F7735A5E11284D /* [CP] Check Pods Manifest.lock */,
+				FED5482A22E6FB0C009E4126 /* Sources */,
+				FED5482B22E6FB0C009E4126 /* Frameworks */,
+				FED5482C22E6FB0C009E4126 /* Resources */,
+				2C791E51196C257D43A1BBB1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = markdownExplorer;
+			productName = markdownExplorer;
+			productReference = FED5482E22E6FB0C009E4126 /* markdownExplorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FED5482622E6FB0C009E4126 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = zmhProject;
+				TargetAttributes = {
+					FED5482D22E6FB0C009E4126 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = FED5482922E6FB0C009E4126 /* Build configuration list for PBXProject "markdownExplorer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FED5482522E6FB0C009E4126;
+			productRefGroup = FED5482F22E6FB0C009E4126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FED5482D22E6FB0C009E4126 /* markdownExplorer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FED5482C22E6FB0C009E4126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED5486B22E70432009E4126 /* DocumentTableViewCell.xib in Resources */,
+				FED1F84E22E955E400106AC5 /* AboutViewController.xib in Resources */,
+				FED5483C22E6FB11009E4126 /* LaunchScreen.storyboard in Resources */,
+				FED548C322E84A38009E4126 /* EditViewController.xib in Resources */,
+				FED5483922E6FB11009E4126 /* Assets.xcassets in Resources */,
+				FED5483722E6FB0C009E4126 /* Main.storyboard in Resources */,
+				FED548C722E943E3009E4126 /* MarkDownViewController.xib in Resources */,
+				FED1F85222E9589200106AC5 /* FeedbackViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C791E51196C257D43A1BBB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-markdownExplorer/Pods-markdownExplorer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-markdownExplorer/Pods-markdownExplorer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-markdownExplorer/Pods-markdownExplorer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A25050BC9F7735A5E11284D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-markdownExplorer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FED5482A22E6FB0C009E4126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED548C222E84A38009E4126 /* EditViewController.swift in Sources */,
+				FED5487022E70C8A009E4126 /* TimeController.swift in Sources */,
+				FED1F84D22E955E400106AC5 /* AboutViewController.swift in Sources */,
+				FED548C622E943E3009E4126 /* MarkDownViewController.swift in Sources */,
+				FED5483422E6FB0C009E4126 /* ViewController.swift in Sources */,
+				FED1F84822E953F600106AC5 /* SettingTableViewController.swift in Sources */,
+				FED548BE22E8468D009E4126 /* CreateFileViewController.swift in Sources */,
+				FED1F85122E9589200106AC5 /* FeedbackViewController.swift in Sources */,
+				FED5486D22E70A81009E4126 /* MarkDownDetail.swift in Sources */,
+				FED548BA22E8162F009E4126 /* FileController.swift in Sources */,
+				FED5486A22E70432009E4126 /* DocumentTableViewCell.swift in Sources */,
+				FED5483222E6FB0C009E4126 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FED5483522E6FB0C009E4126 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED5483622E6FB0C009E4126 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FED5483A22E6FB11009E4126 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED5483B22E6FB11009E4126 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FED5483E22E6FB11009E4126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FED5483F22E6FB11009E4126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FED5484122E6FB11009E4126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9115D56D576D0C8C1339673 /* Pods-markdownExplorer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7M2A724UM8;
+				INFOPLIST_FILE = markdownExplorer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmhProject.markdownExplorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FED5484222E6FB11009E4126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC38E5A8F7E58E4FD85CAD50 /* Pods-markdownExplorer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7M2A724UM8;
+				INFOPLIST_FILE = markdownExplorer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmhProject.markdownExplorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FED5482922E6FB0C009E4126 /* Build configuration list for PBXProject "markdownExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED5483E22E6FB11009E4126 /* Debug */,
+				FED5483F22E6FB11009E4126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED5484022E6FB11009E4126 /* Build configuration list for PBXNativeTarget "markdownExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED5484122E6FB11009E4126 /* Debug */,
+				FED5484222E6FB11009E4126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FED5482622E6FB0C009E4126 /* Project object */;
+}

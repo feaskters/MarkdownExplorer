@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EditViewController" customModule="markdownExplorer" customModuleProvider="target">
+            <connections>
+                <outlet property="headToolView" destination="OkC-mb-PtM" id="gF0-bX-YfX"/>
+                <outlet property="textView" destination="60Z-Q0-6i5" id="vCg-Ux-uU7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="60Z-Q0-6i5">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Lorem ipsum dolor sit er elit lamet">
+                            <attributes>
+                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <font key="NSFont" metaFont="system" size="18"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="16" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=",">
+                            <attributes>
+                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <font key="NSFont" size="18" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="16" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" consectetaur cillium adipisicing pecu">
+                            <attributes>
+                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <font key="NSFont" metaFont="system" size="18"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="16" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=",">
+                            <attributes>
+                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <font key="NSFont" size="18" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="16" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam">
+                            <attributes>
+                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <font key="NSFont" metaFont="system" size="18"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="16" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=",">
+                            <attributes>
+                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <font key="NSFont" size="18" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="16" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content"> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</string>
+                            <attributes>
+                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <font key="NSFont" metaFont="system" size="18"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="16" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=",">
+                            <attributes>
+                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <font key="NSFont" size="18" name=".PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="16" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content"> sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                            <attributes>
+                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <font key="NSFont" metaFont="system" size="18"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="16" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" returnKeyType="done"/>
+                </textView>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OkC-mb-PtM">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3XP-9G-3lU">
+                            <rect key="frame" x="30" y="45" width="60" height="60"/>
+                            <color key="backgroundColor" white="1" alpha="0.85108090753424659" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="G7M-c4-IMy"/>
+                                <constraint firstAttribute="height" constant="60" id="oQr-lL-zx4"/>
+                            </constraints>
+                            <state key="normal" image="预览">
+                                <color key="titleColor" white="0.18098958330000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="preview:" destination="-1" eventType="touchUpInside" id="EcM-7c-fX0"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="preview" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5bn-CZ-GgF">
+                            <rect key="frame" x="30" y="113" width="60" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0n2-9t-T1J">
+                            <rect key="frame" x="120" y="45" width="60" height="60"/>
+                            <color key="backgroundColor" white="1" alpha="0.85108090749999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="VJd-eS-9kF"/>
+                                <constraint firstAttribute="width" constant="60" id="bB5-kA-mGA"/>
+                            </constraints>
+                            <state key="normal" image="分享">
+                                <color key="titleColor" white="0.18098958330000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="share:" destination="-1" eventType="touchUpInside" id="UzN-Bi-cki"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="share" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5T1-VU-C2a">
+                            <rect key="frame" x="128.66666666666666" y="113" width="43" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YCX-Mx-bJ3">
+                            <rect key="frame" x="210" y="45" width="60" height="60"/>
+                            <color key="backgroundColor" white="1" alpha="0.85108090749999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="0C6-yM-7wY"/>
+                                <constraint firstAttribute="width" constant="60" id="8VC-1s-pH4"/>
+                            </constraints>
+                            <state key="normal" image="copy">
+                                <color key="titleColor" white="0.18098958330000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="copyText:" destination="-1" eventType="touchUpInside" id="Nhh-Kz-Dfh"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="copy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YBe-tO-o0k">
+                            <rect key="frame" x="221.33333333333334" y="113" width="37.333333333333343" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.75" alpha="0.70197452910958902" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="5bn-CZ-GgF" firstAttribute="top" secondItem="3XP-9G-3lU" secondAttribute="bottom" constant="8" id="8fe-YD-QGP"/>
+                        <constraint firstItem="0n2-9t-T1J" firstAttribute="leading" secondItem="3XP-9G-3lU" secondAttribute="trailing" constant="30" id="Dj3-YS-4Vs"/>
+                        <constraint firstItem="3XP-9G-3lU" firstAttribute="centerY" secondItem="OkC-mb-PtM" secondAttribute="centerY" id="FhT-rK-1xw"/>
+                        <constraint firstAttribute="height" constant="150" id="KBC-je-qse"/>
+                        <constraint firstItem="5bn-CZ-GgF" firstAttribute="centerX" secondItem="3XP-9G-3lU" secondAttribute="centerX" id="NC7-uX-msN"/>
+                        <constraint firstItem="YCX-Mx-bJ3" firstAttribute="centerY" secondItem="0n2-9t-T1J" secondAttribute="centerY" id="RET-rW-wgU"/>
+                        <constraint firstItem="5T1-VU-C2a" firstAttribute="centerX" secondItem="0n2-9t-T1J" secondAttribute="centerX" id="RrK-Nl-Kue"/>
+                        <constraint firstItem="5T1-VU-C2a" firstAttribute="top" secondItem="0n2-9t-T1J" secondAttribute="bottom" constant="8" id="SCD-T3-uDP"/>
+                        <constraint firstItem="YBe-tO-o0k" firstAttribute="top" secondItem="YCX-Mx-bJ3" secondAttribute="bottom" constant="8" id="ZiO-2c-WTm"/>
+                        <constraint firstItem="0n2-9t-T1J" firstAttribute="centerY" secondItem="3XP-9G-3lU" secondAttribute="centerY" id="cs3-DC-CB3"/>
+                        <constraint firstItem="YCX-Mx-bJ3" firstAttribute="leading" secondItem="0n2-9t-T1J" secondAttribute="trailing" constant="30" id="qnA-dU-WRP"/>
+                        <constraint firstItem="3XP-9G-3lU" firstAttribute="leading" secondItem="OkC-mb-PtM" secondAttribute="leading" constant="30" id="rmY-6o-EhV"/>
+                        <constraint firstItem="YBe-tO-o0k" firstAttribute="centerX" secondItem="YCX-Mx-bJ3" secondAttribute="centerX" id="ryS-7w-MFN"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="60Z-Q0-6i5" secondAttribute="bottom" id="4Cv-7j-dyu"/>
+                <constraint firstItem="OkC-mb-PtM" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="M2N-8k-ZBU"/>
+                <constraint firstItem="OkC-mb-PtM" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="-150" id="Z23-Kp-GVH"/>
+                <constraint firstItem="OkC-mb-PtM" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="adu-c7-TPp"/>
+                <constraint firstItem="60Z-Q0-6i5" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="u9x-nj-e99"/>
+                <constraint firstItem="60Z-Q0-6i5" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="uP3-78-S8j"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="60Z-Q0-6i5" secondAttribute="trailing" id="xrh-EV-071"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="47.826086956521742" y="47.282608695652179"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="copy" width="32" height="32"/>
+        <image name="分享" width="32" height="32"/>
+        <image name="预览" width="32" height="32"/>
+    </resources>
+</document>

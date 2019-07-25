@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AboutViewController" customModule="markdownExplorer" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="et7-fg-0ib" id="irR-1X-wGr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="et7-fg-0ib">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Markdown                   Explorer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cd4-rJ-Ffg">
+                    <rect key="frame" x="0.0" y="401.33333333333331" width="414" height="133.66666666666669"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="56"/>
+                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="AiU-pS-ETX">
+                    <rect key="frame" x="107" y="168" width="200" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="8Bb-GG-Ia4"/>
+                        <constraint firstAttribute="height" constant="200" id="YfS-fl-RsT"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="copyright© zmhProject" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OiW-EH-oCq">
+                    <rect key="frame" x="7" y="695.66666666666663" width="400" height="20.333333333333371"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="400" id="mCh-mN-ADF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1o9-Q6-pHe">
+                    <rect key="frame" x="20" y="40" width="70" height="30"/>
+                    <state key="normal" title="back" image="back">
+                        <color key="titleColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="back:" destination="-1" eventType="touchUpInside" id="HSo-GB-xgC"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Cd4-rJ-Ffg" firstAttribute="centerX" secondItem="et7-fg-0ib" secondAttribute="centerX" id="4Ya-l2-b1a"/>
+                <constraint firstItem="1o9-Q6-pHe" firstAttribute="leading" secondItem="gNr-6a-dQL" secondAttribute="leading" constant="20" id="8Qk-fe-eRH"/>
+                <constraint firstAttribute="bottom" secondItem="OiW-EH-oCq" secondAttribute="bottom" constant="20" id="9hv-Bv-B1q"/>
+                <constraint firstItem="1o9-Q6-pHe" firstAttribute="top" secondItem="gNr-6a-dQL" secondAttribute="top" constant="20" id="C05-gf-0sI"/>
+                <constraint firstItem="AiU-pS-ETX" firstAttribute="centerX" secondItem="et7-fg-0ib" secondAttribute="centerX" id="D3s-T9-gR5"/>
+                <constraint firstItem="Cd4-rJ-Ffg" firstAttribute="centerY" secondItem="et7-fg-0ib" secondAttribute="centerY" constant="100" id="GuZ-1f-dzr"/>
+                <constraint firstAttribute="trailing" secondItem="Cd4-rJ-Ffg" secondAttribute="trailing" id="Huk-oZ-bCs"/>
+                <constraint firstItem="Cd4-rJ-Ffg" firstAttribute="leading" secondItem="et7-fg-0ib" secondAttribute="leading" id="dRA-4n-pEg"/>
+                <constraint firstItem="OiW-EH-oCq" firstAttribute="centerX" secondItem="et7-fg-0ib" secondAttribute="centerX" id="f5D-ue-LTF"/>
+                <constraint firstItem="AiU-pS-ETX" firstAttribute="centerY" secondItem="et7-fg-0ib" secondAttribute="centerY" constant="-100" id="ouT-eE-Pnq"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="gNr-6a-dQL"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back" width="30" height="30"/>
+        <image name="icon" width="1024" height="1024"/>
+    </resources>
+</document>
